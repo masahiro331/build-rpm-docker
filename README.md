@@ -10,7 +10,7 @@ $ docker build -t masahiro331/rpm .
 ## Update rpm command
 
 ```
-$ docker run -it rpm /bin/bash
+$ docker run -it masahiro331/rpm /bin/bash
 $ cd /rpm
 $ # edit rpm source code....
 $ : vim rpm.c
